@@ -1,0 +1,1 @@
+"0","pisa <- na_mean(pisa) # Como existen muchos valores nulos los sustituimos por la media con la funcion na_mean() de la libreria imputeTS"

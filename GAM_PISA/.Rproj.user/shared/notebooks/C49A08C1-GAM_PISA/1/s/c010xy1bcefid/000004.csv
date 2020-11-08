@@ -1,0 +1,3 @@
+"0","chart.Correlation(pisa %>% "
+"0","               select_at(vars(-country)),"
+"0","               histogram = TRUE, pch = 19)  #sacamos las variables categoricas de nuestra matriz de correlaciones"

@@ -1,0 +1,7 @@
+"0","```r
+
+# Fit a linear model
+lm_mod <- lm(accel~times, data = mcycle)
+
+width(flextable(tidy(lm_mod)), width = 1.5) #mirar la libreria flextable que presenta mas bonitos los resultados
+```"

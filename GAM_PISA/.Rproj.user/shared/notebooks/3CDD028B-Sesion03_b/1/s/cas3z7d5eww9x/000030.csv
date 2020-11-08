@@ -1,0 +1,13 @@
+"1","
+Method: GCV   Optimizer: magic
+Smoothing parameter selection converged after 6 iterations.
+The RMS GCV score gradient at convergence was 0.001283199 .
+The Hessian was positive definite.
+Model rank =  20 / 20 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+           k'  edf k-index p-value
+s(times) 19.0 10.9    1.15    0.97
+"

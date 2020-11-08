@@ -1,0 +1,5 @@
+"0","# Para nuestro ejemplo elegimos la variable hdi:"
+"0","# Primero, generamos un smooth.spline con 18 grados de libertad (este número es al azar)"
+"0","fitdf18_hdi <- smooth.spline(x = hdi, y = overall, df = 18)"
+"0","  # Ploteamos ambos modelos para comparar"
+"0","plot(income, overall, col = 'black')"

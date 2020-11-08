@@ -1,0 +1,6 @@
+"0","```r
+gam_mod_sk <- gam(accel ~ s(times, k = 50), data = mcycle, sp = 0.0001) #aqui utilizamos la dos. Le imponemos los nodos con k y le imponemos el suavizado con sp. Vemos aqui un SOBREAJUSTE. Este posiblemente sea el modelo que mejor ajuste a los datos con R2 pero para predecir no nos sirve.
+
+# Visualize the model
+plot(gam_mod_sk, residuals = TRUE, pch = 1)
+```"

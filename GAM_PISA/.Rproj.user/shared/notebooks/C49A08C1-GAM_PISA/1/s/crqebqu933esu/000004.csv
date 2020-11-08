@@ -1,0 +1,6 @@
+"0","# Remove duplicate rows of the dataframe"
+"0","pisa %<>% distinct(country,.keep_all= TRUE)"
+"0",""
+"0",""
+"0",""
+"0","summarise_all(pisa, funs(sum(is.na(.)))) #cuentame los valores nulos en el dataset"

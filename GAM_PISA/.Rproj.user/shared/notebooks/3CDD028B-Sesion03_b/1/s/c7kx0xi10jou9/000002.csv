@@ -1,0 +1,12 @@
+"0","```r
+# Complexity
+# Fit a GAM with 3 basis functions
+gam_mod_k3 <- gam(accel ~ s(times, k = 3), data = mcycle) #estimamos el primero con 3 nodos y lo graficamos. Claramente con 3 no estima bien
+
+# Fit with 20 basis functions
+gam_mod_k20 <- gam(accel ~ s(times, k = 20), data = mcycle) #estimamos este con 20
+
+# Visualize the GAMs
+
+plot(gam_mod_k3, residuals = TRUE, pch = 1)
+```"

@@ -1,0 +1,1 @@
+"0","  lines(fitdf4_hdi, col = 'red', lwd = 3)   # Plot del modelo con 4 grados de libertad"

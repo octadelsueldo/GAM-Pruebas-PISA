@@ -1,0 +1,3 @@
+"0","fitdf4_hdi <- smooth.spline(x = hdi, y = overall, df = 4)"
+"0","  # Ploteamos ambos modelos para comparar"
+"0","plot(hdi, overall, col = 'black')"

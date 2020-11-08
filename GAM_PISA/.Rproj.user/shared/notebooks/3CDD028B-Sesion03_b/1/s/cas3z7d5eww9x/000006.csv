@@ -1,0 +1,10 @@
+"1","
+Method: GCV   Optimizer: magic
+Model required no smoothing parameter selectionModel rank =  50 / 50 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k' edf k-index p-value
+s(times) 49  47    1.31       1
+"

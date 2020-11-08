@@ -1,0 +1,1 @@
+"0","  lines(fit_hdi, col = 'blue', lwd = 3)            # Plot del modelo con los grados de libertad por CV"

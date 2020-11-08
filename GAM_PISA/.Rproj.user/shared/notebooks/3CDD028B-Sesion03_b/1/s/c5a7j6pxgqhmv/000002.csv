@@ -1,0 +1,10 @@
+"0","```r
+# Fix the smoothing parameter at 0.1
+gam_mod_s1 <- gam(accel ~ s(times), data = mcycle, sp = 0.01) #sp es el span. En este caso es pequeno el suavizado. Aqui selecciona de forma automatica el k o cantidad de nodos que utiliza. Recordar que a mayor es el span mas suavizado es el grafico
+
+# Fix the smoothing parameter at 0.0001
+gam_mod_s2 <- gam(accel ~ s(times), data = mcycle, sp = 0.0001)
+
+# Plot both models
+plot(gam_mod_s1, residuals = TRUE, pch = 1)
+```"

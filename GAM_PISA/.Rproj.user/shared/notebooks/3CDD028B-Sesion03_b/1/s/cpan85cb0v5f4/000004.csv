@@ -1,0 +1,7 @@
+"0","```r
+
+coef(gam_mod) #cuando le digo coef le pido cuales son los nodos que ha seleccionado para predecir el modelo. Genera los 9 nodos o funciones para predecir el modelo
+```"
+"1","(Intercept)  s(times).1  s(times).2  s(times).3  s(times).4  s(times).5  s(times).6  s(times).7  s(times).8  s(times).9 
+ -25.545865  -63.718008   43.475644 -110.350132  -22.181006   35.034423   93.176458   -9.283018 -111.661472   17.603782 
+"

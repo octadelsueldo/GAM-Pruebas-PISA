@@ -1,0 +1,9 @@
+"0","```r
+
+knots <- c(15,20,32,40) #para crear los spliner creamos los nosodos en 15,20,32 y 40.
+mcycle$X1 <- pmax(0, mcycle$times - knots[1]) #creamos el nodo uno toma el valor maximo entre el valor que toma times y 15
+mcycle$X2 <- pmax(0, mcycle$times - knots[2]) #asi sucesivamente
+mcycle$X3 <- pmax(0, mcycle$times - knots[3])
+mcycle$X4 <- pmax(0, mcycle$times - knots[4])
+mcycle
+```"

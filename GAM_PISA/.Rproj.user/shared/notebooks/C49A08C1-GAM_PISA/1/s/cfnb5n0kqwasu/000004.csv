@@ -1,0 +1,15 @@
+"0","modelogam1 <- gam(overall ~ s(interest, k = 4.750171) + s(support, k = 2.001243) + s(income, k = 4.244952) + s(health, k = 2.002844) + s(edu, k = 2.002385) + s(hdi, k = 8.603228), data = pisa)"
+"2","argument k of s() should be integer and has been rounded"
+"2","argument k of s() should be integer and has been rounded"
+"2","argument k of s() should be integer and has been rounded"
+"2","argument k of s() should be integer and has been rounded"
+"2","argument k of s() should be integer and has been rounded"
+"2","argument k of s() should be integer and has been rounded"
+"2","basis dimension, k, increased to minimum possible
+"
+"2","basis dimension, k, increased to minimum possible
+"
+"2","basis dimension, k, increased to minimum possible
+"
+"0","par(mfrow = c(2, 3))"
+"0","plot(modelogam1, se = TRUE, col = 'green', residuals = TRUE, pch = 1, lwd = 2)"

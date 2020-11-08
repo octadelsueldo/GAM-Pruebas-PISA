@@ -1,0 +1,16 @@
+"0","pisa <- read_csv(""pisasci2006.csv"")"
+"2","Parsed with column specification:
+cols(
+  Country = [31mcol_character()[39m,
+  Overall = [32mcol_double()[39m,
+  Issues = [32mcol_double()[39m,
+  Explain = [32mcol_double()[39m,
+  Evidence = [32mcol_double()[39m,
+  Interest = [32mcol_double()[39m,
+  Support = [32mcol_double()[39m,
+  Income = [32mcol_double()[39m,
+  Health = [32mcol_double()[39m,
+  Edu = [32mcol_double()[39m,
+  HDI = [32mcol_double()[39m
+)
+"

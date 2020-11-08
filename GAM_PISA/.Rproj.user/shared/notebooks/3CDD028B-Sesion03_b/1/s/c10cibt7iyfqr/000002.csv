@@ -1,0 +1,6 @@
+"0","```r
+baseplot1 <- ggplot(data = mcycle, mapping = aes(x = times, y = accel)) +
+    layer(geom = \"point\",stat = \"identity\",position = \"identity\") +
+    theme_bw() + theme(legend.key = element_blank())
+baseplot1
+```"

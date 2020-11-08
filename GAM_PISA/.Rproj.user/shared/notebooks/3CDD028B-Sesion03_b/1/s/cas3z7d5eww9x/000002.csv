@@ -1,0 +1,4 @@
+"0","```r
+# Checking los modelos
+gam.check(gam_mod_sk)  #el que peor prediice
+```"

@@ -1,0 +1,9 @@
+"0","```r
+
+
+
+mcycle <- MASS::mcycle
+
+# Examine the mcycle data frame
+head(mcycle)
+```"

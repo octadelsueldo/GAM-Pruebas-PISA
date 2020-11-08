@@ -1,0 +1,2 @@
+"0","# Checking de los modelos"
+"0","gam.check(modelogam1)  #el modelo con el primer gam "

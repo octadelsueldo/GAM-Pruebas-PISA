@@ -1,0 +1,3 @@
+"0","```r
+gam.check(gam_mod_s1) #modelo con span con 0.001 el mas suavizado
+```"

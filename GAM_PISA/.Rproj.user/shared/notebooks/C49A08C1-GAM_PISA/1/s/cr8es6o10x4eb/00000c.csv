@@ -1,0 +1,1 @@
+"0","  lines(fitdf18_hdi, col = 'red', lwd = 3)   # Plot del modelo con 18 grados de libertad"

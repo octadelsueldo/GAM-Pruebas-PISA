@@ -1,0 +1,2 @@
+"0","  legend('topleft', legend = c('18 DF', '8.60 DF'),   # Parametros de la leyenda"
+"0","       col = c('red', 'blue'), lty = 1, lwd = 3, cex = 1, bg = 'grey')"
